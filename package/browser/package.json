@@ -1,0 +1,58 @@
+{
+  "name": "@openai-node/browser",
+  "version": "0.0.1",
+  "description": "openai-node browser",
+  "productName": "openai-node browser",
+  "author": "h7ml <h7ml@qq.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.6",
+    "dotenv": "^16.0.1",
+    "husky": "^8.0.2",
+    "openai": "^3.1.0",
+    "pinia": "^2.0.11",
+    "prettier": "^2.8.0",
+    "quasar": "^2.6.0",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@dext7r/cz-config": "^1.0.4",
+    "@dext7r/eslint-config": "^1.0.0",
+    "@dext7r/prettier": "^0.0.9",
+    "@intlify/vite-plugin-vue-i18n": "^3.3.1",
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "^6.3.0",
+    "enquirer": "^2.3.6",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "kolorist": "^1.6.0",
+    "lint-staged": "13.0.3",
+    "minimist": "^1.2.7",
+    "nanospinner": "^1.1.0",
+    "open-url-by-browser": "1.0.1",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "prompts": "^2.4.2"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "pnpm": ">= 7.17.1"
+  }
+}
